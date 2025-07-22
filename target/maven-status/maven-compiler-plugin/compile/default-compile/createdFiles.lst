@@ -1,0 +1,4 @@
+com/example/bookstore/BookStoreApplication.class
+com/example/bookstore/Book.class
+com/example/bookstore/BookController.class
+com/example/bookstore/BookRepository.class
