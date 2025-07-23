@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOCKER_IMAGE: yourdockerhubuser/bookstore-api
+      DOCKER_IMAGE: manojtg/bookstore-api
       AWS_REGION: us-east-1
 
     steps:
