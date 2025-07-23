@@ -1,6 +1,6 @@
 resource "aws_lb" "api_lb" {
   name               = "bookstore-alb"
-  internal           = false
+  internal           = true
   load_balancer_type = "application"
   security_groups    = [aws_security_group.ecs_sg.id]
   subnets            = aws_subnet.public[*].id
